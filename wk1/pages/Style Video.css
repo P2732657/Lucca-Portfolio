@@ -1,0 +1,63 @@
+body{
+    background: url("/images/feild\ background.JPG")
+}
+body{
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.navsec{
+    margin-left: 40px;
+  }
+  ul{
+    border-radius: 30px;
+    margin: 0%;
+    color: aliceblue;
+    background-color: black;
+       list-style-type: none;
+       font-size: 40px;
+       display: flex
+       }
+header{
+    font-family: 'Courier New', Courier, monospace;
+     text-align: center;
+      font-weight: 1000;
+      font-size: 90px;
+      color:black
+}
+
+/* like with the photos, making sure the 'height' and 'width' were correct so that both of the videos could fit on the page. i also used 'margin-left' to create space between the videos and 
+'left' to move the content itself*/ 
+.videos{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    margin-left: 180px;
+    left: 100px;
+
+}
+/* with both of these class targets they both have the same font choices as the rest of the website, the same with padding and background changes. however the things that are 
+different are having a 'fixed width' so the text would flow down rather than 'inline' so the text flowed nicer*/
+.Para1{
+    bottom: 100px;
+    width: 700px;
+    margin-left: 225px;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 40px;
+    background-size: 0px;
+}
+.Para2{
+    margin-top:-154px;
+    width: 620px;
+    margin-left: 1050px;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 40px;
+    background-size: 0px;
+}

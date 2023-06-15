@@ -1,0 +1,42 @@
+header{
+    font-family: 'Courier New', Courier, monospace;
+
+    text-align: center;
+      font-weight: 1000;
+      font-size: 90px;
+      color:black
+}
+body{
+  background: url("/images/mirror.JPG")
+}
+
+body{
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+.navsec{
+  margin-left: 40px;
+}
+ul{
+  border-radius: 30px;
+  margin: 0%;
+  color: aliceblue;
+  background-color: black;
+     list-style-type: none;
+     font-size: 40px;
+     display: flex
+}
+
+/* this div targets the main text section with multiple style choices like 'line-height: 1px;' that made sure the texts had a good distance between them*/
+div{
+  text-align: center;
+  margin: auto;
+  background-color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 22px;
+  line-height: 1px;
+  padding: 10px;
+  color: aliceblue;
+  border-radius: 40px;
+}

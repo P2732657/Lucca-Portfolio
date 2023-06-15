@@ -1,0 +1,34 @@
+/* using this photo of me to be the background of my portfolio was a great choice */
+body{
+  background: url("/images/mirror.JPG")
+}
+/* having the size being able to fit my pc screen fully and making sure it doesn't repeat in different places i chose the background-repeat:no-repeat; to make sure that this doesnt happen  */
+body{
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* making sure the header had the correct font for easy reading, text-align:center; made sure that the title was in the middle whilst font-weight: 1000; font-size: 90px;and color:black 
+are all styles for me*/
+header{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+    font-weight: 1000;
+    font-size: 90px;
+    color:black
+}
+
+/* this style section made sure the navigation section had a smooth bar at the top of the page that spanned the whole area, with the correct font colour changes to white to contrast the black background*/
+ul{
+  border-radius: 30px;
+  margin: 0%;
+  color: aliceblue;
+  background-color: black;
+     list-style-type: none;
+     font-size: 40px;
+     display: flex
+}
+/* this is so the navigation section is in the correct position on the page rather than the design aspects*/
+.navsec{
+  margin-left: 40px;
+ }
+

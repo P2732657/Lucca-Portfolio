@@ -1,0 +1,53 @@
+body{
+    background: url("/images/feild\ background.JPG")
+}
+body{
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.navsec{
+    margin-left: 40px;
+  }
+  ul{
+    border-radius: 30px;
+    margin: 0%;
+    color: aliceblue;
+    background-color: black;
+       list-style-type: none;
+       font-size: 40px;
+       display: flex
+       }
+header{
+    font-family: 'Courier New', Courier, monospace;
+    
+     text-align: center;
+      font-weight: 1000;
+      font-size: 90px;
+      color:black
+}
+/* making sure this text is level with the heading and the photos with 'text-alight:center; and making sure the background fits around the text with 'width:fit-content; */
+.text{
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    line-height: 5px;
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 100px;
+    width:fit-content
+  }
+
+/*as the photos where landscapes they had to be wider so i always had +200px on the height but making sure all 6 photos could fit symetrically on the page
+ making the margin 10px made a nice gap that wasn't too big. */
+.photos{
+  width: 500px; 
+  height: 300px; 
+  margin: 10px; 
+  position:relative;
+  display: inline-table; 
+  left: 175px;
+  top: 50px; 
+}
+
